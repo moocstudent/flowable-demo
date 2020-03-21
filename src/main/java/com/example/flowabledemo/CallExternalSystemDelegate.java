@@ -8,5 +8,6 @@ public class CallExternalSystemDelegate implements JavaDelegate {
     public void execute(DelegateExecution execution) {
         System.out.println("Calling the external system for employee "
                 + execution.getVariable("employee"));
+        System.out.println("请假通过了");
     }
 }

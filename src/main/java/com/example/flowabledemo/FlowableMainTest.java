@@ -1,6 +1,5 @@
 package com.example.flowabledemo;
 
-import lombok.extern.slf4j.Slf4j;
 import org.flowable.engine.history.HistoricActivityInstance;
 import org.flowable.task.api.Task;
 import org.flowable.engine.*;
@@ -17,7 +16,6 @@ import java.util.Scanner;
 /**
  * @author ukyo
  */
-@Slf4j
 public class FlowableMainTest {
 
     public static void main(String[] args) {
